@@ -1,0 +1,19 @@
+/* FONT FACE - font-display: fallback; */
+@font-face {
+    font-family: 'PNA';
+    src: url('../fonts/ProximaNovaA-Extrabld.woff2') format('woff2'),
+        url('../fonts/ProximaNovaA-Extrabld.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Pr';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
