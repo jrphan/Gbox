@@ -26,8 +26,8 @@
 <body>
     <header>
         <div class="header">
-            <div class="h1">
-                <h1>gboxs</h1>
+            <div class="hambuger">
+                <span></span>
             </div>
             <div class="logo">
                 <a href="">
@@ -41,6 +41,18 @@
             </div>
         </div>
     </header>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="">about</a></li>
+                <li><a href="">studio</a></li>
+                <li><a href="">rental</a></li>
+                <li><a href="">cafe</a></li>
+                <li><a href="">work</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <main class="mainwrapper">
         <section class="menus">
             <div class="container">
@@ -63,13 +75,13 @@
         <section class="textmains">
             <div class="container">
                 <div class="textmain">
-                    <div class="textmain__h3">
+                    <div class="textmain__h3" data-aos="zoom-in" data-aos-duration="500">
                         <h3>welcome <br> <br> to</h3>
                     </div>
-                    <div class="textmain__title">
+                    <div class="textmain__title" data-aos="zoom-in" data-aos-duration="1000">
                         <h2><span>gbox studio</span></h2>
                     </div>
-                    <div class="textmain__des">
+                    <div class="textmain__des" data-aos="zoom-in" data-aos-duration="1500">
                         <p><span>gbox studios</span> aim is to create a full  service offering clients the hightest quality of work with a comprehensive
                         undertanging of modern production, our service include advertising, products, automotive, portraits, beauty,editorial photography and 
                         video production. Gbox brand mark was inspired by the brand name and the lens - a visual representation of out world, we aim to create powerful
@@ -94,7 +106,7 @@
                         </div>
                     </div>
                     <div class="product__list">
-                        <div class="item">
+                        <div class="item" data-aos="zoom-in">
                             <a href="">
                                 <div class="item-img">
                                     <img src="img/project_1.jpg" alt="">
@@ -108,7 +120,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item">
+                        <div class="item" data-aos="zoom-in">
                             <a href="">
                                 <div class="item-img">
                                     <img src="img/project2.jpg" alt="">
@@ -122,7 +134,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item">
+                        <div class="item" data-aos="zoom-in">
                             <a href="">
                                 <div class="item-img">
                                     <img src="img/project_3.jpg" alt="">
@@ -136,7 +148,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item">
+                        <div class="item" data-aos="zoom-in">
                             <a href="">
                                 <div class="item-img">
                                     <img src="img/project_4.jpg" alt="">
@@ -150,7 +162,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item">
+                        <div class="item" data-aos="zoom-in">
                             <a href="">
                                 <div class="item-img">
                                     <img src="img/project_5.jpg" alt="">
@@ -164,7 +176,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item">
+                        <div class="item" data-aos="zoom-in">
                             <a href="">
                                 <div class="item-img">
                                     <img src="img/project_6.jpg" alt="">
@@ -179,7 +191,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="product__arrow">
+                    <div class="product__arrow" data-aos="fade-up">
                         <p>all works</p>
                         <a href="">
                             <img src="img/arrow.png" alt="">
@@ -190,7 +202,7 @@
         </section>
         <section class="contacts">
            <div class="container">
-            <div class="contact">
+            <div class="contact" data-aos="fade-up">
                 <div class="contact__info">
                     <p>Email</p>
                     <p>Info@goldenboxstudios.com</p>
@@ -206,7 +218,7 @@
     </main>
     <footer>
         <div class="container">
-            <div class="contactft">
+            <div class="contactft" data-aos="fade-up">
                 <div class="contactft__info">
                     <p>andress</p>
                     <p>04 bau cat district tan binh</p>
@@ -225,14 +237,14 @@
                         <p>subject</p>
                         <input type="text" name="" id="">
                         <p>message</p>
-                        <textarea name="" id="" cols="25" rows="3"></textarea>
+                        <textarea name="" id="" cols="25" rows="5"></textarea>
                         <div class="button">
                             <a href="">send</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="backtotop">
+            <div class="backtotop" data-aos="fade-up">
                 <a href="#"><img src="img/backtotop.png" alt=""></a>
                 <p>@2018 gbox studio. all rights reserved</p>
             </div>
@@ -240,6 +252,11 @@
     </footer>
     <script type="text/javascript" src="dest/jsmain.min.js"></script>
     <script type="text/javascript" src="dest/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>
