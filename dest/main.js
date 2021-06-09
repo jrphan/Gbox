@@ -1,5 +1,12 @@
 let menus = document.querySelector('.menus');
 let menu = document.querySelector('.menus .menu');
+let loading = document.querySelector('.loading');
+
+window.addEventListener('load', function() {
+    setTimeout(() => {
+        loading.classList.add('hidden');     
+    }, 800);
+})
 
 document.addEventListener('scroll', function() {
     let scrollY = window.pageYOffset;
