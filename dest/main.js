@@ -188,3 +188,16 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 initPhotoSwipeFromDOM('.carousel-img');
 
+let studioitem = document.querySelectorAll('.booking .booking__choose .liststudio .liststudio-item');
+
+studioitem.forEach(function(item,index) {
+    item.addEventListener('click', function() {
+        studioitem[0].classList.remove('active');
+        studioitem[1].classList.remove('active');
+        studioitem[2].classList.remove('active');
+        studioitem[3].classList.remove('active');
+        studioitem[index].classList.add('active');
+    })
+})
+
+
