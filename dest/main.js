@@ -200,4 +200,14 @@ studioitem.forEach(function(item,index) {
     })
 })
 
+let tagpd = document.querySelectorAll('.product__tags .tag a');
 
+tagpd.forEach(function(item,index) {
+    item.addEventListener('click', function(e) {
+        e.preventDefault();
+        tagpd[0].classList.remove('active');
+        tagpd[1].classList.remove('active');    
+        tagpd[2].classList.remove('active');
+        tagpd[index].classList.add('active');
+    })
+})
